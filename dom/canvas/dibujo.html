@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style> 
+#grad1 {
+  height: 50px;
+  background-color: red;
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+</style>
+<body>
+<div id="grad1" style="text-align:left;margin:auto;color:#18206de1;font-size:40px;font-weight:bold">
+Dibujo Canvas
+</div>
+<p>
+    ¿Cuántas líneas quieres? <br>
+    <input type="text" id="texto_lineas" />
+    <input type="button" value="¡A darle!" id="botoncito" />
+</p>
+<canvas width="1000" height="1000" id="dibujito"></canvas>
+<p style="background-color: aquamarine;text-align: center;font-size: 15px;font-style: oblique; font-weight: bond; text-shadow: violet;text-size-adjust: 20px;"> Trazado aritmético de líneas</p>
+<script src="dibujo.js"></script>
+</body>
+</div>
+</html>
